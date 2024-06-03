@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.start-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/Hero Background.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+  }
+  
+  .start-content {
+    position: relative;
+  }
+  
+  .start-button {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    cursor: pointer;
+  }
+
+  .start-background{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+  }
